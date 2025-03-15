@@ -64,6 +64,7 @@ And here. | Okay. | I think we get it.
           value={markdown}
           onChange={(e) => setMarkdown(e.target.value)}
           placeholder="Enter your markdown here...."
+          aria-label="Markdown editor"
           >
         </textarea>
       </div>
